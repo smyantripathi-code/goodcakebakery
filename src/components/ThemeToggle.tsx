@@ -11,13 +11,4 @@ export function ThemeToggle() {
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', dark ? 'light' : 'light')
   }, [dark])
-
-  return (
-    <button
-      className="theme-toggle"
-      onClick={() => setDark((d) => !d)}
-      aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'}
-      title={dark ? 'dark mode' : 'Dark mode'}
-    >
-  )
 }
