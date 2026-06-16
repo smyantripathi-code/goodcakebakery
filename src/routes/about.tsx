@@ -229,7 +229,7 @@ He brought that deep knowledge of traditional Mexican breads to Good Cake Bakery
           Stop by our bakery in downtown Tigard or order your custom cake today.
         </p>
         <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <Link to="/order" className="btn btn--gold">Order a Cake</Link>
+          <Link href="tel:+15038109369" className="btn btn--gold">Order a Cake</Link>
           <Link to="/menu" className="btn btn--secondary">See Our Menu</Link>
         </div>
       </div>
