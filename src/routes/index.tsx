@@ -85,7 +85,7 @@ function HomePage() {
             </p>
             <div className="hero__actions">
               <Link to="/menu" className="btn btn--gold">See Our Menu</Link>
-              <Link to="/order" className="btn btn--secondary">Order a Custom Cake</Link>
+              <Link href="tel:+15038109369" className="btn btn--secondary">Order a Custom Cake</Link>
             </div>
           </div>
 
