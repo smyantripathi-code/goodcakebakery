@@ -175,7 +175,7 @@ function MenuPage() {
           We love custom requests. Call us or fill out our order form and we'll work with you to create exactly what you need.
         </p>
         <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <Link to="/order" className="btn btn--gold">Request a Custom Order</Link>
+          <Link href="tel:+15038109369" className="btn btn--gold">Request a Custom Order</Link>
           <a href="tel:+15038109369" className="btn btn--secondary">(503) 810-9369</a>
         </div>
       </div>
