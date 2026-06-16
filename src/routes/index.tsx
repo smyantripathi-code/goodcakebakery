@@ -223,7 +223,7 @@ function HomePage() {
           Custom cakes, cupcakes, pastries for events, and daily walk-in treats. Call us or stop by — we'd love to meet you.
         </p>
         <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <Link to="/order" className="btn btn--gold">Order a Custom Cake</Link>
+          <Link href="tel:+15038109369" className="btn btn--gold">Order a Custom Cake</Link>
           <a href="tel:+15038109369" className="btn btn--secondary">(503) 810-9369</a>
         </div>
       </div>
