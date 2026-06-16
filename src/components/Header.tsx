@@ -77,7 +77,7 @@ export function Header() {
                   to={item.to}
                   activeProps={{
                     style: {
-                      color: 'var(--primary)',
+                      color: '#fff',
                     },
                   }}
                   style={{
